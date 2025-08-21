@@ -13,7 +13,7 @@ The modified workflow introduces a looping mechanism that fine-tunes a Vision Tr
   * Implements electrode-wise fine-tuning of a Vision Transformer on EEG/ECoG spectrograms.
   * Includes model definitions (`vision_transformer.py`), dataset loaders (`ECOG90S_dataloader.py`), and training utilities (`utils.py`).
 
-* ** Code (`loop_Model_Finetuning.py`)**
+* **Code (`loop_Model_Finetuning.py`)**
 
   * Automates fine-tuning across individual electrodes.
   * Trains and evaluates a model for each electrode in sequence.
@@ -41,7 +41,7 @@ ModelFinetuning/
 
 Clone the repository and install dependencies:
 
-```bash
+```
 git clone <your-fork-url>
 cd ModelFinetuning
 pip install -r requirements.txt
@@ -55,7 +55,7 @@ Dependencies include PyTorch, timm (for Vision Transformers), and standard scien
 
 ### Run electrode-wise fine-tuning loop
 
-```bash
+```
 python loop_Model_Finetuning.py --config configs/default.yaml
 ```
 
