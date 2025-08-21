@@ -3,7 +3,7 @@
 This repository contains code and resources for a **Vision Transformer (ViT)-based framework** to analyze EEG spectrograms for **delirium detection**. The project integrates preprocessing pipelines, patient- and electrode-wise model finetuning, and detailed post-hoc analysis.
 
 ---
-
+```
 DeliriumProjectGithub/
 |-- Electrode_Wise_Comparison/
 |   |-- ModelFinetuning/
@@ -48,7 +48,7 @@ DeliriumProjectGithub/
 |       |-- Functions/
 |       |-- README_Spectrogram.md
 |       |-- Spectrogram_Creation.m
-
+```
 
 
 ## Main Components
