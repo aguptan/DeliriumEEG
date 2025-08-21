@@ -4,21 +4,20 @@ This repository contains code and resources for a **Vision Transformer (ViT)-bas
 
 ---
 
-## Repository Structure
 DeliriumProjectGithub/
 |-- Electrode_Wise_Comparison/
 |   |-- ModelFinetuning/
-|       |-- README_ElectrodeWiseComparison.md
-|       |-- VisionTransformerModel/
-|       |   |-- ECOG90S_dataloader.py
-|       |   |-- GMML.jpg
-|       |   |-- GMMLenv_fixed.yml
-|       |   |-- README.md
-|       |   |-- finetune_EEG.py
-|       |   |-- requirements.txt
-|       |   |-- utils.py
-|       |   |-- vision_transformer.py
-|       |-- loop_Model_Finetuning.py
+|   |   |-- README_ElectrodeWiseComparison.md
+|   |   |-- VisionTransformerModel/
+|   |   |   |-- ECOG90S_dataloader.py
+|   |   |   |-- GMML.jpg
+|   |   |   |-- GMMLenv_fixed.yml
+|   |   |   |-- README.md
+|   |   |   |-- finetune_EEG.py
+|   |   |   |-- requirements.txt
+|   |   |   |-- utils.py
+|   |   |   |-- vision_transformer.py
+|   |   |-- loop_Model_Finetuning.py
 |
 |-- Patient_Wise_Comparison/
 |   |-- Analysis/
@@ -26,27 +25,30 @@ DeliriumProjectGithub/
 |   |   |-- loocv_VTS_analysis2.py
 |   |   |-- loocv_VTS_container.py
 |   |   |-- unified_container.py
-|   |   |-- Graphs & Scripts/   (confusion matrices, heatmaps, accuracy curves, etc.)
+|   |   |-- Graphs_and_Scripts/
 |   |
 |   |-- ModelFinetuning/
-|       |-- LOO_patientwise_finetuning.py
-|       |-- MultiGPURun.py
-|       |-- README_PatientWise.MD
-|       |-- VisionTransformerModel/
-|           |-- GMMLenv_fixed.yml
-|           |-- requirements.txt
-|           |-- (dataloader, utils, and ViT definition)
+|   |   |-- LOO_patientwise_finetuning.py
+|   |   |-- MultiGPURun.py
+|   |   |-- README_PatientWise.md
+|   |   |-- VisionTransformerModel/
+|   |       |-- GMMLenv_fixed.yml
+|   |       |-- requirements.txt
+|   |       |-- dataloader/
+|   |       |-- utils/
+|   |       |-- vision_transformer/
 |
 |-- Preprocessing/
-    |-- FileMoving/
-    |   |-- MTFolderManagement.py
-    |   |-- c2PNG_w2CSV.py
-    |
-    |-- SpectrogramCreation/
-        |-- EEG2MAT.m
-        |-- Functions/   (filtering, referencing, spectrogram generation, etc.)
-        |-- README_Spectrogram.md
-        |-- Spectrogram_Creation.m
+|   |-- FileMoving/
+|   |   |-- MTFolderManagement.py
+|   |   |-- c2PNG_w2CSV.py
+|   |
+|   |-- SpectrogramCreation/
+|       |-- EEG2MAT.m
+|       |-- Functions/
+|       |-- README_Spectrogram.md
+|       |-- Spectrogram_Creation.m
+
 
 
 ## Main Components
