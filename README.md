@@ -5,44 +5,49 @@ This repository contains code and resources for a **Vision Transformer (ViT)-bas
 ---
 
 ## Repository Structure
-DeliriumProjectGithub
-├── Electrode_Wise_Comparison
-│   └── ModelFinetuning
-│       ├── README_ElectrodeWiseComparison.md
-│       ├── VisionTransformerModel
-│       │   ├── ECOG90S_dataloader.py
-│       │   ├── GMML.jpg
-│       │   ├── GMMLenv_fixed.yml
-│       │   ├── README.md
-│       │   ├── finetune_EEG.py
-│       │   ├── requirements.txt
-│       │   ├── utils.py
-│       │   └── vision_transformer.py
-│       └── loop_Model_Finetuning.py
-├── Patient_Wise_Comparison
-│   ├── Analysis
-│   │   ├── Graphs & Scripts (confusion matrices, heatmaps, accuracy curves, etc.)
-│   │   ├── README_analysis.md
-│   │   ├── loocv_VTS_analysis2.py
-│   │   ├── loocv_VTS_container.py
-│   │   └── unified_container.py
-│   └── ModelFinetuning
-│       ├── LOO_patientwise_finetuning.py
-│       ├── MultiGPURun.py
-│       ├── README_PatientWise.MD
-│       └── VisionTransformerModel
-│           ├── dataloader, utils, and ViT definition
-│           ├── GMMLenv_fixed.yml
-│           └── requirements.txt
-└── Preprocessing
-    ├── FileMoving
-    │   ├── MTFolderManagement.py
-    │   └── c2PNG_w2CSV.py
-    └── SpectrogramCreation
-        ├── EEG2MAT.m
-        ├── Functions (filtering, referencing, spectrogram generation, etc.)
-        ├── README_Spectrogram.md
-        └── Spectrogram_Creation.m
+DeliriumProjectGithub/
+|-- Electrode_Wise_Comparison/
+|   |-- ModelFinetuning/
+|       |-- README_ElectrodeWiseComparison.md
+|       |-- VisionTransformerModel/
+|       |   |-- ECOG90S_dataloader.py
+|       |   |-- GMML.jpg
+|       |   |-- GMMLenv_fixed.yml
+|       |   |-- README.md
+|       |   |-- finetune_EEG.py
+|       |   |-- requirements.txt
+|       |   |-- utils.py
+|       |   |-- vision_transformer.py
+|       |-- loop_Model_Finetuning.py
+|
+|-- Patient_Wise_Comparison/
+|   |-- Analysis/
+|   |   |-- README_analysis.md
+|   |   |-- loocv_VTS_analysis2.py
+|   |   |-- loocv_VTS_container.py
+|   |   |-- unified_container.py
+|   |   |-- Graphs & Scripts/   (confusion matrices, heatmaps, accuracy curves, etc.)
+|   |
+|   |-- ModelFinetuning/
+|       |-- LOO_patientwise_finetuning.py
+|       |-- MultiGPURun.py
+|       |-- README_PatientWise.MD
+|       |-- VisionTransformerModel/
+|           |-- GMMLenv_fixed.yml
+|           |-- requirements.txt
+|           |-- (dataloader, utils, and ViT definition)
+|
+|-- Preprocessing/
+    |-- FileMoving/
+    |   |-- MTFolderManagement.py
+    |   |-- c2PNG_w2CSV.py
+    |
+    |-- SpectrogramCreation/
+        |-- EEG2MAT.m
+        |-- Functions/   (filtering, referencing, spectrogram generation, etc.)
+        |-- README_Spectrogram.md
+        |-- Spectrogram_Creation.m
+
 
 ## Main Components
 
