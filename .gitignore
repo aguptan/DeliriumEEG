@@ -1,0 +1,92 @@
+# -----------------------------
+# Python
+# -----------------------------
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+*.pkl
+*.npy
+*.npz
+*.ipynb_checkpoints/
+
+# -----------------------------
+# Environments
+# -----------------------------
+.env/
+.venv/
+venv/
+ENV/
+env/
+*.env
+
+# Conda
+*.conda
+*.yml
+*.yaml
+
+# -----------------------------
+# Logs & Outputs
+# -----------------------------
+*.log
+*.out
+*.err
+
+# -----------------------------
+# Machine Learning Artifacts
+# -----------------------------
+# Model checkpoints
+*.ckpt
+*.pth
+*.pt
+*.h5
+*.onnx
+
+# Training artifacts
+*.tfevents.*
+runs/
+wandb/
+lightning_logs/
+
+# -----------------------------
+# Data Files (keep only samples if needed)
+# -----------------------------
+*.csv
+*.tsv
+*.mat
+*.xlsx
+*.hdf5
+*.parquet
+*.db
+
+# -----------------------------
+# MATLAB
+# -----------------------------
+*.asv
+*.mex*
+*.fig
+*.slxc
+*.slx
+*.mdl
+*.mltbx
+
+# -----------------------------
+# IDE / OS Files
+# -----------------------------
+# VSCode
+.vscode/
+# PyCharm
+.idea/
+# MacOS
+.DS_Store
+# Windows
+Thumbs.db
+desktop.ini
+
+# -----------------------------
+# Miscellaneous
+# -----------------------------
+*.bak
+*.swp
+*.tmp
