@@ -245,7 +245,7 @@ Adjust near the top of the script:
 2. Ensure the Functions folder is on path:
 
    ```matlab
-   addpath('D:\AmalScripts2\Functions');
+   addpath('Location');
    ```
 3. Set `data_dir` and `spectrogram_root` to your drives.
 4. Run the script:
