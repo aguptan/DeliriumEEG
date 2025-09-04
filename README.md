@@ -90,6 +90,12 @@ conda activate gmml_env
 ```
 
 ---
+## Technologies
+
+* **Languages**: MATLAB, Python
+* **Frameworks**: PyTorch, timm (ViTs), NumPy, Pandas, SciPy, scikit-learn, Matplotlib
+* **EEG Tools**: BioSig, custom filtering and spectrogram functions
+* **Workflow**: Multi-GPU orchestration, structured logging, modular analysis
 
 ## Usage
 
