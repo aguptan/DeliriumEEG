@@ -4,7 +4,7 @@
 
 PyTorch Dataset and DataLoader classes for ECoG image data.
 
-This script defines the necessary Dataset classes (`ECOG90S_train`, `ECOG90S_test`)
+This script uses a unified Dataset class for training and testing downstream
 for loading ECoG data from corresponding CSV files. It also includes the 
 `DataAugmentation_finetune` class to handle image transformations for training
 and testing.
