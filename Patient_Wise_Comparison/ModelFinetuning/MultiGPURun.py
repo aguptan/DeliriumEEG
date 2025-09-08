@@ -296,14 +296,14 @@ def main():
                     time.sleep(cfg['worker_launch_delay'])
                 
                 wait_for_all_gpu_signals(tw_name, output_path, cfg['num_gpus'], threshold)
-                logger.info(f"✅ Completed time window: {tw_name} @ threshold {threshold:.2f}")
+                logger.info(f" Completed time window: {tw_name} @ threshold {threshold:.2f}")
 
             except TimeoutError as e:
-                logger.error(f"❌ FAILED time window: {tw_name} @ threshold {threshold:.2f}. Reason: {e}")
+                logger.error(f" FAILED time window: {tw_name} @ threshold {threshold:.2f}. Reason: {e}")
                 logger.warning("Proceeding to cleanup before the next time window...")
             
             except Exception as e:
-                logger.error(f"❌ An unexpected error occurred for {tw_name} @ threshold {threshold:.2f}: {e}", exc_info=True)
+                logger.error(f" An unexpected error occurred for {tw_name} @ threshold {threshold:.2f}: {e}", exc_info=True)
                 logger.warning("Proceeding to cleanup before the next time window...")
 
             finally:
@@ -311,7 +311,7 @@ def main():
                 # It cleans up all workers from the completed or failed run
                 cleanup_workers()
 
-    logger.info("🎯 All time windows and thresholds processed.")
+    logger.info(" All time windows and thresholds processed.")
 
 
 # =============================================================================
