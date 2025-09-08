@@ -78,7 +78,7 @@ class LOO_ECOG_Dataset(Dataset):
         return len(self.dataframe)
 
     def __getitem__(self, idx):
-        # This logic is copied from your original ECOG90S_test class
+        
         img_path = os.path.join(self.data_location, str(self.dataframe.iloc[idx]['filename'])) + '.png'
         label = self.dataframe.iloc[idx]['label']
         patient_id = self.dataframe.iloc[idx]['patient_id']
@@ -93,7 +93,7 @@ class LOO_ECOG_Dataset(Dataset):
         if self.transform:
             image = self.transform(image)
 
-        # We return all three items for maximum flexibility
+        
         return image, label, patient_id
 
 
