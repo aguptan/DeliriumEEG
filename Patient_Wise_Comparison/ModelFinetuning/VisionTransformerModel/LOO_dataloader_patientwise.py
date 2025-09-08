@@ -1,8 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Thu Jun 22 14:03:59 2023
-
-@author: lyonm
+@author: aguptan (minor changes from lyonm's original code)
 
 PyTorch Dataset and DataLoader classes for ECoG image data.
 
@@ -34,7 +32,7 @@ import pandas as pd
 import torch
 from torch.utils.data import Dataset, DataLoader
 from torchvision import transforms
-# from sklearn.model_selection import LeaveOneOut
+
 
 import os
 import PIL
